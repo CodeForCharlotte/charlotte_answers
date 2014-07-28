@@ -4,7 +4,7 @@ ruby '2.1.2'
 gem 'nokogiri', '~> 1.6.2.1'
 gem 'rails', '4.1.0'
 gem 'pg'
-gem 'thin'
+gem 'unicorn'
 gem 'foreman'
 
 gem 'facets', require: false

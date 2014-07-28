@@ -1,2 +1,1 @@
-web: bundle exec thin start -p $PORT
-log: tail -f log/development.log
+app: bundle exec unicorn start -c ./config/unicorn.rb
