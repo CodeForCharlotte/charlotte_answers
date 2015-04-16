@@ -2,8 +2,8 @@ development:
   adapter: postgresql
   encoding: unicode
   database: answers_dev
-  username: answers
-  password: answers
+#  username: answers
+#  password: answers
   host: localhost
   pool: 5
   timeout: 5000
